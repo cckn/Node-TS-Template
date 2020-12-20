@@ -30,7 +30,8 @@
   "scripts": {
     "test": "jest --watch --runInBand --detectOpenHandles",
     "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/index.ts",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/jest": "^25.2.3",

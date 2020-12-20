@@ -1,5 +1,7 @@
-// import { make2DArray } from 'src/utils.ts'
-// import { myNamespace } from 'custom-types'
+const a: number = 1
+const b = 1
+const c = 1
 
-const foo = '10'
-console.log(foo)
+console.log(a)
+console.log(b)
+console.log(c)

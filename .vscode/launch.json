@@ -5,11 +5,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "node",
-      "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/helloworld.ts",
-      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+      "program": "${workspaceFolder}/src/index.ts",
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+
+      "preLaunchTask": "npm: build",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
     }
   ]
 }
