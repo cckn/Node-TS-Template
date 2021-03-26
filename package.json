@@ -31,6 +31,7 @@
     "test": "jest --watch --runInBand --detectOpenHandles",
     "start": "ts-node src/index.ts",
     "build": "webpack",
+    "docker": "sh build.sh",
     "dev": "webpack --watch"
   },
   "devDependencies": {
